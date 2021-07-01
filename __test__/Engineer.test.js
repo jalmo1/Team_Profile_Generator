@@ -1,3 +1,7 @@
 const Engineer = require("../src/Engineer");
 
-test("");
+test("create engineer", () => {
+  const engineer = new Engineer("Bob", 2, "Bob@email.com", "github.com/bob");
+
+  expect(engineer.github).toBe("github.com/bob");
+});
