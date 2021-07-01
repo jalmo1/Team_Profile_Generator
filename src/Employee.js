@@ -16,6 +16,10 @@ class Employee {
   getEmail() {
     return this.email;
   }
+
+  getGithub() {
+    return this.github;
+  }
 }
 
 module.exports = Employee;
